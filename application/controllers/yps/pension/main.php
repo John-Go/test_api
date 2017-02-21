@@ -8,6 +8,7 @@ class Main extends CI_Controller {
 	}
 
 	function index() {
+		log_message('error','Get pension list call');
 		checkMethod('get');	// 접근 메서드를 제한
 
 		$ret = array();
