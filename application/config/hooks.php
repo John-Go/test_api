@@ -10,19 +10,19 @@
 |
 */
 
-$hook['post_controller_constructor'] = array(
-	'class'    => '_Common',
-	'function' => 'index',
-	'filename' => 'Common.php',
-	'filepath' => 'hooks'
-);
+// $hook['post_controller_constructor'] = array(
+// 	'class'    => '_Common',
+// 	'function' => 'index',
+// 	'filename' => 'Common.php',
+// 	'filepath' => 'hooks'
+// );
 
-$hook['post_system'] = array(
-    'class'    => '_dbClose',
-    'function' => 'index',
-    'filename' => 'dbClose.php',
-    'filepath' => 'hooks'
-);
+// $hook['post_system'] = array(
+//     'class'    => '_dbClose',
+//     'function' => 'index',
+//     'filename' => 'dbClose.php',
+//     'filepath' => 'hooks'
+// );
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
