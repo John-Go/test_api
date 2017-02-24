@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 
 //공통DB
-$db['ps']['hostname'] = '';
+$db['ps']['hostname'] = 'localhost';
 $db['ps']['username'] = '';
 $db['ps']['password'] = '';
 $db['ps']['database'] = '';
@@ -86,7 +86,7 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
  */
 
-$db['sms']['hostname'] = '';
+$db['sms']['hostname'] = 'localhost';
 $db['sms']['username'] = '';
 $db['sms']['password'] = '';
 $db['sms']['database'] = 'emma';
@@ -103,7 +103,7 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
 
 //HTML DB
-$db['html']['hostname'] = '';
+$db['html']['hostname'] = 'localhost';
 $db['html']['username'] = '';
 $db['html']['password'] = '';
 $db['html']['database'] = 'htmlDB';
@@ -120,7 +120,7 @@ $db['html']['autoinit'] = TRUE;
 $db['html']['stricton'] = FALSE;
 
 //호텔365 통합DB
-$db['info']['hostname'] = '';
+$db['info']['hostname'] = 'localhost';
 $db['info']['username'] = '';
 $db['info']['password'] = '';
 $db['info']['database'] = '';
@@ -136,7 +136,7 @@ $db['info']['swap_pre'] = '';
 $db['info']['autoinit'] = TRUE;
 $db['info']['stricton'] = FALSE;
 
-$db['em']['hostname'] = '';
+$db['em']['hostname'] = 'localhost';
 $db['em']['username'] = '';
 $db['em']['password'] = '';
 $db['em']['database'] = 'imds';
@@ -154,7 +154,7 @@ $db['em']['stricton'] = FALSE;
 
 
 //야놀자 펜션
-$db['yps']['hostname'] = '';
+$db['yps']['hostname'] = 'localhost';
 $db['yps']['username'] = '';
 $db['yps']['password'] = '';
 $db['yps']['database'] = '';
@@ -170,7 +170,7 @@ $db['yps']['swap_pre'] = '';
 $db['yps']['autoinit'] = TRUE;
 $db['yps']['stricton'] = FALSE;
 
-$db['YP']['hostname'] = '';
+$db['YP']['hostname'] = 'localhost';
 $db['YP']['username'] = '';
 $db['YP']['password'] = '';
 $db['YP']['database'] = '';
