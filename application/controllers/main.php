@@ -14,6 +14,6 @@ class Main extends CI_Controller {
 	}
 
 	public function elb_health_chk() {
-		log_message('error','ELB Server name Master : '.$this->input->server('SERVER_ADDR'));
+		log_message('error','ELB Server name 2 : '.$this->input->server('SERVER_ADDR'));
 	}
 }
