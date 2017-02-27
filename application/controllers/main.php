@@ -18,9 +18,9 @@ class Main extends CI_Controller {
 	}
 
 	public function test() {
-		log_message('error','ELB Server name : '.$this->input->server('SERVER_ADDR'));
-		for ($i=0; $i < 100 ; $i++) {
-
-		}
+		//log_message('error','ELB Server name : '.$this->input->server('SERVER_ADDR'));
+		//for ($i=0; $i < 100 ; $i++) {
+		//
+		//}
 	}
 }
