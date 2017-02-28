@@ -50,10 +50,10 @@ $active_record = TRUE;
 
 
 //공통DB
-$db['ps']['hostname'] = 'localhost';
-$db['ps']['username'] = '';
-$db['ps']['password'] = '';
-$db['ps']['database'] = '';
+$db['ps']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['ps']['username'] = 'admin';
+$db['ps']['password'] = 'yapen1010';
+$db['ps']['database'] = 'pensionDB';
 $db['ps']['dbdriver'] = 'mysqli';
 $db['ps']['dbprefix'] = '';
 $db['ps']['pconnect'] = FALSE;
@@ -75,7 +75,7 @@ $db['sms']['password'] = 'sms16441440';
 $db['sms']['database'] = 'sms80';
 $db['sms']['dbdriver'] = 'mysqli';
 $db['sms']['dbprefix'] = '';
-$db['sms']['pconnect'] = TRUE;
+$db['sms']['pconnect'] = FALSE;
 $db['sms']['db_debug'] = TRUE;
 $db['sms']['cache_on'] = FALSE;
 $db['sms']['cachedir'] = APPPATH.'cache/sms';
@@ -86,9 +86,9 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
  */
 
-$db['sms']['hostname'] = 'localhost';
-$db['sms']['username'] = '';
-$db['sms']['password'] = '';
+$db['sms']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['sms']['username'] = 'admin';
+$db['sms']['password'] = 'yapen1010';
 $db['sms']['database'] = 'emma';
 $db['sms']['dbdriver'] = 'mysqli';
 $db['sms']['dbprefix'] = '';
@@ -103,9 +103,9 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
 
 //HTML DB
-$db['html']['hostname'] = 'localhost';
-$db['html']['username'] = '';
-$db['html']['password'] = '';
+$db['html']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['html']['username'] = 'admin';
+$db['html']['password'] = 'yapen1010';
 $db['html']['database'] = 'htmlDB';
 $db['html']['dbdriver'] = 'mysqli';
 $db['html']['dbprefix'] = '';
@@ -120,10 +120,10 @@ $db['html']['autoinit'] = TRUE;
 $db['html']['stricton'] = FALSE;
 
 //호텔365 통합DB
-$db['info']['hostname'] = 'localhost';
-$db['info']['username'] = '';
-$db['info']['password'] = '';
-$db['info']['database'] = '';
+$db['info']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['info']['username'] = 'admin';
+$db['info']['password'] = 'yapen1010';
+$db['info']['database'] = 'pensionDB';
 $db['info']['dbdriver'] = 'mysqli';
 $db['info']['dbprefix'] = '';
 $db['info']['pconnect'] = FALSE;
@@ -136,9 +136,9 @@ $db['info']['swap_pre'] = '';
 $db['info']['autoinit'] = TRUE;
 $db['info']['stricton'] = FALSE;
 
-$db['em']['hostname'] = 'localhost';
-$db['em']['username'] = '';
-$db['em']['password'] = '';
+$db['em']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['em']['username'] = 'admin';
+$db['em']['password'] = 'yapen1010';
 $db['em']['database'] = 'imds';
 $db['em']['dbdriver'] = 'mysqli';
 $db['em']['dbprefix'] = '';
@@ -154,10 +154,10 @@ $db['em']['stricton'] = FALSE;
 
 
 //야놀자 펜션
-$db['yps']['hostname'] = 'localhost';
-$db['yps']['username'] = '';
-$db['yps']['password'] = '';
-$db['yps']['database'] = '';
+$db['yps']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['yps']['username'] = 'admin';
+$db['yps']['password'] = 'yapen1010';
+$db['yps']['database'] = 'pensionDB';
 $db['yps']['dbdriver'] = 'mysqli';
 $db['yps']['dbprefix'] = '';
 $db['yps']['pconnect'] = FALSE;
@@ -170,10 +170,10 @@ $db['yps']['swap_pre'] = '';
 $db['yps']['autoinit'] = TRUE;
 $db['yps']['stricton'] = FALSE;
 
-$db['YP']['hostname'] = 'localhost';
-$db['YP']['username'] = '';
-$db['YP']['password'] = '';
-$db['YP']['database'] = '';
+$db['YP']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['YP']['username'] = 'admin';
+$db['YP']['password'] = 'yapen1010';
+$db['YP']['database'] = 'pensionDB';
 $db['YP']['dbdriver'] = 'mysqli';
 $db['YP']['dbprefix'] = '';
 $db['YP']['pconnect'] = FALSE;
