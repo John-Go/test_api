@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 
 //공통DB
-$db['ps']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['ps']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['ps']['username'] = 'admin';
 $db['ps']['password'] = 'yapen1010';
 $db['ps']['database'] = 'pensionDB';
@@ -86,7 +86,7 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
  */
 
-$db['sms']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['sms']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['sms']['username'] = 'admin';
 $db['sms']['password'] = 'yapen1010';
 $db['sms']['database'] = 'emma';
@@ -103,7 +103,7 @@ $db['sms']['autoinit'] = TRUE;
 $db['sms']['stricton'] = FALSE;
 
 //HTML DB
-$db['html']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['html']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['html']['username'] = 'admin';
 $db['html']['password'] = 'yapen1010';
 $db['html']['database'] = 'htmlDB';
@@ -120,7 +120,7 @@ $db['html']['autoinit'] = TRUE;
 $db['html']['stricton'] = FALSE;
 
 //호텔365 통합DB
-$db['info']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['info']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['info']['username'] = 'admin';
 $db['info']['password'] = 'yapen1010';
 $db['info']['database'] = 'pensionDB';
@@ -136,7 +136,7 @@ $db['info']['swap_pre'] = '';
 $db['info']['autoinit'] = TRUE;
 $db['info']['stricton'] = FALSE;
 
-$db['em']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['em']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['em']['username'] = 'admin';
 $db['em']['password'] = 'yapen1010';
 $db['em']['database'] = 'imds';
@@ -154,7 +154,7 @@ $db['em']['stricton'] = FALSE;
 
 
 //야놀자 펜션
-$db['yps']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['yps']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['yps']['username'] = 'admin';
 $db['yps']['password'] = 'yapen1010';
 $db['yps']['database'] = 'pensionDB';
@@ -170,7 +170,7 @@ $db['yps']['swap_pre'] = '';
 $db['yps']['autoinit'] = TRUE;
 $db['yps']['stricton'] = FALSE;
 
-$db['YP']['hostname'] = 'yapen-testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
+$db['YP']['hostname'] = 'testdb.ckmics7jujs6.ap-northeast-2.rds.amazonaws.com';
 $db['YP']['username'] = 'admin';
 $db['YP']['password'] = 'yapen1010';
 $db['YP']['database'] = 'pensionDB';
