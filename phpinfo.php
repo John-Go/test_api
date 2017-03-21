@@ -1,3 +1,4 @@
 <?
+// Continuous Deploy Test.
 phpinfo();
 ?>
