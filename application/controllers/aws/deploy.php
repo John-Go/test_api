@@ -6,7 +6,7 @@ class Deploy extends CI_Controller {
     }
 
     public function index() {
-        exec('sh /gfdata/update.sh', $output);
+        exec('sh /gfdata/update.sh pull', $output);
         log_message('error', 'Api server : '.print_r($output,true));
     }
 }
