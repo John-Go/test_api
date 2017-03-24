@@ -6,7 +6,8 @@ class Deploy extends CI_Controller {
     }
 
     public function index() {
-        $result = liveExecuteCommand('ls -la');
+        // $result = $this->liveExecuteCommand('ls -la');
+        $result = $this->liveExecuteCommand('sh /gfdata/update.sh pull');
 
         if($result['exit_status'] === 0){
            // do something if command execution succeeds
@@ -18,8 +19,7 @@ class Deploy extends CI_Controller {
         // log_message('error', 'Api server : '.print_r($output,true));
     }
 
-    function liveExecuteCommand($cmd)
-    {
+    public function liveExecuteCommand($cmd) {
 
         while (@ ob_end_flush()); // end all output buffers if any
 
