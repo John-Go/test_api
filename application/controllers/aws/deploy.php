@@ -7,16 +7,16 @@ class Deploy extends CI_Controller {
 
     public function index() {
         // $result = $this->liveExecuteCommand('ls -la');
-        $result = $this->liveExecuteCommand('sh /gfdata/update.sh pull');
+        // $result = $this->liveExecuteCommand('sh /gfdata/update.sh pull');
 
-        if($result['exit_status'] === 0){
-           // do something if command execution succeeds
-        } else {
-            // do something on failure
-        }
+        // if($result['exit_status'] === 0){
+        //    // do something if command execution succeeds
+        // } else {
+        //     // do something on failure
+        // }
 
-        // shell_exec('sh /gfdata/update.sh pull', $output);
-        // log_message('error', 'Api server : '.print_r($output,true));
+        $val = shell_exec('sh /gfdata/update.sh pull');
+        log_message('error', 'Api server : '.print_r($val,true));
     }
 
     public function liveExecuteCommand($cmd) {
