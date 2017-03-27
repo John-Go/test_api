@@ -19,8 +19,7 @@ class Deploy extends CI_Controller {
         log_message('error', 'Api server : '.print_r($val,true));
     }
 
-    public function liveExecuteCommand($cmd) {
-
+    public function liveExecuteCommand($cmd){
         while (@ ob_end_flush()); // end all output buffers if any
 
         $proc = popen("$cmd 2>&1 ; echo Exit status : $?", 'r');
