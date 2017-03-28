@@ -6,7 +6,7 @@ class Git_proc {
      * Git Process
      */
 
-    const _SH_COMMAND = 'sh /gfdata/update.sh'
+    const _SH_COMMAND = 'sh /gfdata/update.sh';
     protected $deploy_kind = '';
 
 
