@@ -18,6 +18,8 @@ class Deploy extends CI_Controller {
         //
         $val = shell_exec('sh /gfdata/update.sh pull');
         log_message('error', 'Api server : '.print_r($val,true));
+
+        return $this->output->set_content_type('application/json')->set_output(json_encode($val));
     }
 
     public function liveExecuteCommand($cmd){
