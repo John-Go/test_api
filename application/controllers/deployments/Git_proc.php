@@ -1,8 +1,47 @@
-<?php
-class Deploy extends CI_Controller {
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-    function __construct() {
-        parent::__construct();
+class Git_proc {
+
+    /**
+     * Git Process
+     */
+
+    const _SH_COMMAND = 'sh /gfdata/update.sh'
+    static $DEPLOY_KIND = '';
+
+
+    // ------------------------------------------------------------------
+
+    /**
+     * Git Master Branch를 기준으로 Pull한다.
+     *
+     * @return  json
+    */
+    protected function master_pull() {
+        $res = shell_exec(self::_SH_COMMAND.' '.self::$DEPLOY_KIND.' pull');
+        return $res;
+    }
+
+    // ------------------------------------------------------------------
+
+    /**
+     * Git Branch를 변경하고 Pull한다.
+     *
+     * @return  json
+    */
+    public function branch($br_name = NULL) {
+
+        $res = '[DEPLOY ERROR] Undefine Branch Name.';
+        if( !empty($br_name) ) {
+            $res = shell_exec(self::_SH_COMMAND.' branch '.$br_name);
+        } else {
+            log_message('error','[DEPLOY ERROR] Undefine Branch Name.');
+        }
+
+
+        log_message('error', 'Deploy Target server : '.print_r($res,true));
+
+        return $this->output->set_content_type('application/json')->set_output(json_encode($res));
     }
 
     public function index() {
