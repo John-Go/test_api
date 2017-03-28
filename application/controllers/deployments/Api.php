@@ -19,7 +19,7 @@ class Api extends Git_proc {
 
     function __construct() {
         // parent::__construct();
-        self::$DEPLOY_KIND = 'api';
+        $this->deploy_kind = 'api';
     }
 
     // ------------------------------------------------------------------

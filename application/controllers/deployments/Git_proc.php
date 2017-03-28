@@ -7,7 +7,7 @@ class Git_proc {
      */
 
     const _SH_COMMAND = 'sh /gfdata/update.sh'
-    static $DEPLOY_KIND = '';
+    protected $deploy_kind = '';
 
 
     // ------------------------------------------------------------------
@@ -18,7 +18,7 @@ class Git_proc {
      * @return  json
     */
     protected function master_pull() {
-        $res = shell_exec(self::_SH_COMMAND.' '.self::$DEPLOY_KIND.' pull');
+        $res = shell_exec(self::_SH_COMMAND.' '.self::$deploy_kind.' pull');
         return $res;
     }
 
