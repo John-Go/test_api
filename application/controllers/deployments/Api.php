@@ -32,11 +32,15 @@ class Api extends Git_proc {
      * @return  json
     */
     public function pull() {
+        $CI =& get_instance();
+
         $res = $this->master_pull();
         log_message('error', 'Deploy Target server : Basic'.$res);
         log_message('error', '//////////////////////////////');
         log_message('error', 'Deploy Target server : '.print_r($res,true));
-        return $res;
+
+        $CI->output->set_content_type('application/json')->set_output(json_encode($res));
+        // return $res;
     }
 
     // ------------------------------------------------------------------
