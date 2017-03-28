@@ -9,6 +9,8 @@
  * @since       Version 1.0
  */
 
+require_once APPPATH.'controllers/deployments/Git_proc.php';
+
 class Api extends Git_proc {
 
     /**
