@@ -33,6 +33,8 @@ class Api extends Git_proc {
     */
     public function pull() {
         $res = $this->master_pull();
+        log_message('error', 'Deploy Target server : Basic'.$res);
+        log_message('error', '//////////////////////////////');
         log_message('error', 'Deploy Target server : '.print_r($res,true));
         return $res;
     }
