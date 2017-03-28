@@ -15,10 +15,9 @@ class Deploy extends CI_Controller {
         // } else {
         //     // do something on failure
         // }
-
-        log_message('error', 'Api server : ');
-        // $val = shell_exec('sh /gfdata/update.sh pull');
-        // log_message('error', 'Api server : '.print_r($val,true));
+        //
+        $val = shell_exec('sh /gfdata/update.sh pull');
+        log_message('error', 'Api server : '.print_r($val,true));
     }
 
     public function liveExecuteCommand($cmd){
