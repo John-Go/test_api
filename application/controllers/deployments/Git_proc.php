@@ -18,7 +18,7 @@ class Git_proc {
      * @return  json
     */
     protected function master_pull() {
-        $res = shell_exec(self::_SH_COMMAND.' '.$this->$deploy_kind.' pull');
+        $res = shell_exec(self::_SH_COMMAND.' '.$this->deploy_kind.' pull');
         return $res;
     }
 
