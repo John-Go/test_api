@@ -15,11 +15,11 @@ class Api extends Git_proc {
      * Continuous Deploy
      */
 
-    const _SH_COMMAND = 'sh /gfdata/update.sh'
+    const _SH_COMMAND = 'sh /gfdata/update.sh';
 
     function __construct() {
         // parent::__construct();
-        $this->deploy_kind = 'api';
+        self::$DEPLOY_KIND = 'api';
     }
 
     // ------------------------------------------------------------------
