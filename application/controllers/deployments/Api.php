@@ -38,9 +38,6 @@ class Api extends Git_proc {
         log_message('error', 'Deploy Target server : Basic'.$res);
         log_message('error', '//////////////////////////////');
         log_message('error', 'Deploy Target server : '.print_r($res,true));
-
-        $CI->output->set_content_type('application/json')->set_output(json_encode($res));
-        // return $res;
     }
 
     // ------------------------------------------------------------------
