@@ -20,6 +20,6 @@ class Main extends CI_Controller {
 	 */
 	public function elb_health_chk()
 	{
-		log_message('error','Git Branch IP : '.$this->input->server('SERVER_ADDR'));
+		log_message('error','Git Branch IP ========== '.$this->input->server('SERVER_ADDR'));
 	}
 }
