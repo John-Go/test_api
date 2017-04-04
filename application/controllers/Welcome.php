@@ -22,9 +22,4 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
-
-	public function test() {
-		log_message('error','Load View Test : '.$this->input->server('SERVER_ADDR'));
-		$this->load->view('welcome_message');
-	}
 }
