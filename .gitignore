@@ -2,3 +2,4 @@
 # Log file
 #-------------------------
 application/logs/*
+application/config/*
