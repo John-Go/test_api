@@ -19,6 +19,8 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index() {
+		$db = $this->db->query("SELECT * FROM users")->result_array();
+		var_dump($db);
 		$this->load->view('welcome_message');
 	}
 }
