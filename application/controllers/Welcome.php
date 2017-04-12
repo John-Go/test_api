@@ -19,6 +19,6 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index() {
-		echo 'SERVER IP : '.$_SERVER['SERVER_ADDR'];
+		$this->load->view('welcome_message');
 	}
 }
