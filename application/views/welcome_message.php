@@ -10,7 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="container" style="color:#fff;">
 	<h1>CI Branch.</h1>
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Welcome!</h1>
+	<h1>Server IP : <?=$_SERVER['SERVER_ADDR'];?></h1>
 </div>
 
 </body>
