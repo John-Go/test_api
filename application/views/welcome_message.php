@@ -9,7 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Server IP : <?=$_SERVER['SERVER_ADDR'];?></h1>
+	<h1>Master Branch</h1>
+	<h2>Server IP : <?=$_SERVER['SERVER_ADDR'];?></h2>
 </div>
 
 </body>
