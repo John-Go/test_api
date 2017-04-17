@@ -1,5 +1,7 @@
 
 # Log file
 #-------------------------
+
 application/logs/*
-application/config/*
+
+#application/config/*
